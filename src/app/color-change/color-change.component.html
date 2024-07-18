@@ -1,0 +1,10 @@
+<div class="color-change-container">
+    <button type="button" (click)="toggleColor()">Change Color</button>
+    <div
+      class="color-box"
+      [@changeColor]="isChanged ? 'changed' : 'default'"
+    >
+      Color Box
+    </div>
+  </div>
+  

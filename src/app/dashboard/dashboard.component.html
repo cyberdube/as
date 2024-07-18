@@ -1,0 +1,20 @@
+<div class="container">
+  <div class="pipes-section">
+    <h1>Pipes</h1>
+    <p>{{ 9 | numberToRoman }}</p>
+    <p>{{ 'IX' | romanToNumber }}</p>
+    <p>{{ 100 | fahrenheitToCelsius }}</p>
+    <p>{{ 'username' | appendGmail }}</p>
+  </div>
+
+  <div class="animation-section">
+    <h1>Animation</h1>
+    <nav>
+      <ul>
+        <li><a routerLink="/dashboard/bounce-button">Bounce Button</a></li>
+        <li><a routerLink="/dashboard/color-change">Color Change</a></li>
+      </ul>
+    </nav>
+    <router-outlet></router-outlet>
+  </div>
+</div>
